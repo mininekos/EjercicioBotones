@@ -1,1 +1,7 @@
-<p>papa works!</p>
+<div class="container">
+    <a class="btn btn-primary" (click)="mandarTexto('Boton uno')">BOTON UNO</a>
+    <a class="btn btn-primary" (click)="mandarTexto('Boton dos')" >BOTON DOS</a>
+    <a class="btn btn-primary" (click)="mandarTexto('Boton tres')">BOTON TRES</a>
+    <p></p>
+    <app-hijo [textoRecibido]="texto"></app-hijo>
+</div>
