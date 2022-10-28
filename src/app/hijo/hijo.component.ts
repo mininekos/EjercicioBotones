@@ -8,9 +8,10 @@ import { Component, Input, OnInit } from '@angular/core';
 export class HijoComponent implements OnInit {
 
   @Input() textoRecibido!: String;
+  
   constructor() {
     
-   }
+  }
 
   ngOnInit(): void {
     
