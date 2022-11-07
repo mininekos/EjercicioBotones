@@ -1,1 +1,7 @@
-<p>{{textoRecibido}}</p>
+<p  [ngClass]="{
+    'text-success':textoRecibido=='Boton uno',
+    'text-primary':textoRecibido=='Boton dos',
+    'text-danger':textoRecibido=='Boton tres'
+}"
+
+>{{textoRecibido}}</p>
